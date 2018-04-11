@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_food_title">Food</string>
+    <string name="fragment_historic_title">Historic</string>
+    <string name="fragment_hotels_title">Hotels</string>
+    <string name="fragment_popular_title">Popular</string>
+</resources>
