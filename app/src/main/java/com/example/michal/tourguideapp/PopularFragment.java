@@ -27,6 +27,3 @@ public class PopularFragment extends Fragment {
     }
 
 }
-
-//TODO: create an Item class to display objests in lists
-//TODO: create an adapter to inflate the lists
