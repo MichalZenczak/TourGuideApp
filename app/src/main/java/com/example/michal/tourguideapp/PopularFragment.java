@@ -6,6 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 
 /**
@@ -23,7 +26,18 @@ public class PopularFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.list_of_items, container, false);
+        View rootView = inflater.inflate(R.layout.list_of_items, container, false);
+
+        final ArrayList<Item> popularPlacesList = new ArrayList<>();
+        for (int i = 1; i < 10; i++) {
+            popularPlacesList.add(new Item("Location " + i, R.drawable.ic_satellite_black_24dp));
+        }
+        ItemAdapter popularPlacesAdapter = new ItemAdapter(getActivity(), popularPlacesList, R.color.colorPopularPlaces);
+        ListView listView = rootView.findViewById(R.id.list_of_items);
+        listView.setAdapter(popularPlacesAdapter);
+
+
+        return rootView;
     }
 
 }
