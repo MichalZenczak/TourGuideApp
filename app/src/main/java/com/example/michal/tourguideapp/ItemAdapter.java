@@ -25,6 +25,8 @@ public class ItemAdapter extends ArrayAdapter<Item> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+
+
         return super.getView(position, convertView, parent);
     }
 }
