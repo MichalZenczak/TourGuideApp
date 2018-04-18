@@ -23,6 +23,10 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         mColorResourceId = colorResourceId;
     }
 
+    public ItemAdapter(Context context, ArrayList<Item> itemList) {
+        super(context, 0, itemList);
+    }
+
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
@@ -42,11 +46,11 @@ public class ItemAdapter extends ArrayAdapter<Item> {
 
 
         // Set the theme color for the list item
-        View textContainer = listOfItemsView.findViewById(R.id.item_container);
+        //View textContainer = listOfItemsView.findViewById(R.id.item_container);
         // Find the color that the resource ID maps to
-        int color = ContextCompat.getColor(getContext(), mColorResourceId);
+        //int color = ContextCompat.getColor(getContext(), mColorResourceId);
         // Set the background color of the text container View
-        textContainer.setBackgroundColor(color);
+        //textContainer.setBackgroundColor(color);
 
 
         return listOfItemsView;

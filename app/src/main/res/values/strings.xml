@@ -7,4 +7,27 @@
     <string name="fragment_historic_title">Historic</string>
     <string name="fragment_hotels_title">Hotels</string>
     <string name="fragment_popular_title">Popular</string>
+
+
+    <string-array name="popular_places_names">
+        <item name="popular_location_1">location_1</item>
+        <item name="popular_location_2">location_2</item>
+        <item name="popular_location_3">location_3</item>
+        <item name="popular_location_4">location_4</item>
+    </string-array>
+
+    <string-array name="popular_places_description">
+        <item name="popular_location_description_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</item>
+        <item name="popular_location_description_2">It has survived not only five centuries, but also
+            the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+            in the 1960s with the release of Letraset sheets containing</item>
+        <item name="popular_location_description_3">Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</item>
+        <item name="popular_location_description_4">Contrary to popular belief, Lorem Ipsum is not
+            simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old.</item>
+
+    </string-array>
 </resources>
