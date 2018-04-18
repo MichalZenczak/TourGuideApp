@@ -1,35 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-
-    <ImageView
-        android:id="@+id/detailed_item_image"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_gravity="center"
-        android:layout_weight="2" />
-
-    <TextView
-        android:id="@+id/detailed_item_text"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_gravity="fill"
-        android:layout_margin="@dimen/margin"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/detailed_item_description"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_margin="@dimen/margin"
-        android:layout_weight="3"
-        android:textAppearance="?android:textAppearanceMedium" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
 
-</LinearLayout>
+        <ImageView
+            android:id="@+id/detailed_item_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_image_size"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/detailed_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_margin="@dimen/margin"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailed_item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+    </LinearLayout>
+</ScrollView>

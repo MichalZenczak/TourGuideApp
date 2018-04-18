@@ -10,24 +10,48 @@
 
 
     <string-array name="popular_places_names">
-        <item name="popular_location_1">location_1</item>
-        <item name="popular_location_2">location_2</item>
-        <item name="popular_location_3">location_3</item>
-        <item name="popular_location_4">location_4</item>
+        <item name="pupular_sagrada_familia_name">Sagrada Família</item>
+        <item name="popular_park_güell">Park Güell</item>
+        <item name="popular_la_rambla">La Rambla</item>
+        <item name="popular_camp_nou">Camp Nou</item>
     </string-array>
 
     <string-array name="popular_places_description">
-        <item name="popular_location_description_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</item>
-        <item name="popular_location_description_2">It has survived not only five centuries, but also
-            the leap into electronic typesetting, remaining essentially unchanged. It was popularised
-            in the 1960s with the release of Letraset sheets containing</item>
-        <item name="popular_location_description_3">Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</item>
-        <item name="popular_location_description_4">Contrary to popular belief, Lorem Ipsum is not
-            simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old.</item>
+        <item name="popular_sagrada_familia_description">The Basílica i Temple Expiatori de la Sagrada Família i
+            s a large unfinished Roman Catholic church in Barcelona, designed by Catalan architect Antoni Gaudí
+            (1852–1926). Gaudí\'s work on the building is part of a UNESCO World Heritage Site, and in November
+            2010 Pope Benedict XVI consecrated and proclaimed it a minor basilica as distinct from a cathedral,
+            which must be the seat of a bishop. In 1882, construction of Sagrada Família started under architect
+            Francisco de Paula del Villar. In 1883, when Villar resigned, Gaudí took over as chief architect,
+            transforming the project with his architectural and engineering style, combining Gothic and curvilinear
+            Art Nouveau forms. Gaudí devoted the remainder of his life to the project, and at the time of his death
+            at age 73 in 1926, less than a quarter of the project was complete. Relying solely on private donations,
+            Sagrada Familia\'s construction progressed slowly and was interrupted by the Spanish Civil War, only to
+            resume intermittent progress in the 1950s. Since commencing construction in 1882, advancements in technologies
+            such as computer aided design and computerised numerical control (CNC) have enabled faster progress and construction
+            passed the midpoint in 2010. However, some of the project\'s greatest challenges remain, including the construction of
+            ten more spires, each symbolising an important Biblical figure in the New Testament. It is anticipated that the building
+            can be completed by 2026—the centenary of Gaudí\'s death.</item>
+        <item name="popular_park_güell_description">The Park Güell is a public park system composed of gardens and architectonic
+            elements located on Carmel Hill, in Barcelona, Catalonia. Carmel Hill belongs to the mountain range of Collserola –
+            the Parc del Carmel is located on the northern face. Park Güell is located in La Salut, a neighborhood in the Gràcia
+            district of Barcelona. With urbanization in mind, Eusebi Güell assigned the design of the park to Antoni Gaudí,
+            a renowned architect and the face of Catalan modernism. The park was built between 1900 and 1914 and was officially
+            opened as a public park in 1926. In 1984, UNESCO declared the park a World Heritage Site under "Works of Antoni Gaudí".</item>
+        <item name="popular_la_rambla_description">La Rambla is a street in central Barcelona, popular with tourists and locals alike.
+            A tree-lined pedestrian mall, it stretches for 1.2 kilometres connecting Plaça de Catalunya in the centre with the Christopher
+            Columbus Monument at Port Vell. La Rambla forms the boundary between the quarters of Barri Gòtic, to the east, and El Raval,
+            to the west. La Rambla can be crowded, especially during the height of the tourist season. Its popularity with tourists has
+            affected the character of the street, with a move to pavement cafes and souvenir kiosks. It has also suffered from the attention
+            of pickpockets and especially towards its southern end, sex workers. The Spanish poet Federico García Lorca once said that
+            La Rambla was "the only street in the world which I wish would never end."</item>
+        <item name="popular_camp_nou_description">Camp Nou is the home stadium of FC Barcelona since its completion in 1957.
+            With a seating capacity of 99,354, it is the largest stadium in Spain and Europe, and the second largest association
+            football stadium in the world in capacity. It has hosted two European Cup Champions League finals in 1989 and 1999,
+            two UEFA Cup Winners Cup finals, four Inter-Cities Fairs Cup final games, five UEFA Super Cup final games, four Copa del Rey
+            finals, two Copa de la Liga final games, twenty-one Supercopa de España final games, five matches including the opening game
+            of the 1982 FIFA World Cup, two out of four matches at the 1964 European Nations Cup and the football competition final at the
+            1992 Summer Olympics.</item>
 
     </string-array>
 </resources>
