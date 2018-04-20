@@ -1,25 +1,40 @@
 <resources>
     <string name="app_name">Tour Guide App</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="fragment_food_title">Food</string>
     <string name="fragment_historic_title">Historic</string>
     <string name="fragment_hotels_title">Hotels</string>
     <string name="fragment_popular_title">Popular</string>
 
-
     <string-array name="popular_places_names">
-        <item name="pupular_sagrada_familia_name">Sagrada Família</item>
+        <item name="pupular_sagrada_familia">Sagrada Família</item>
         <item name="popular_park_güell">Park Güell</item>
         <item name="popular_la_rambla">La Rambla</item>
         <item name="popular_camp_nou">Camp Nou</item>
+        <item name="popular_tibidabo">Tibidabo</item>
+    </string-array>
+
+    <string-array name="historical_places_names">
+        <item name="historical_arc_de_triomf">Arc de Triomf</item>
+        <item name="historical_casa_batllò">Casa Batllò</item>
+        <item name="historical_hospital_de_sant_pau">Hospital de Sant Pau</item>
+        <item name="historical_santa_maria_del_pi">Santa Maria del Pi</item>
+        <item name="historical_the_columbus_monument">The Columbus Monument</item>
+    </string-array>
+
+    <string-array name="food_names">
+        <item name="food_bar_cañete">Bar Cañete</item>
+        <item name="food_cova_fumada">Cova Fumada</item>
+        <item name="food_restaurante_martínez">Restaurante Martínez</item>
+        <item name="food_lomoAlto">LomoAlto</item>
+        <item name="food_disfrutar">Disfrutar</item>
     </string-array>
 
     <string-array name="popular_places_description">
-        <item name="popular_sagrada_familia_description">The Basílica i Temple Expiatori de la Sagrada Família i
-            s a large unfinished Roman Catholic church in Barcelona, designed by Catalan architect Antoni Gaudí
-            (1852–1926). Gaudí\'s work on the building is part of a UNESCO World Heritage Site, and in November
+        <item name="popular_sagrada_familia_description">The Basílica i Temple Expiatori de la Sagrada Família is
+            a large unfinished Roman Catholic church in Barcelona, designed by Catalan architect Antoni Gaudí
+            (1852–1926). Gaudí\'s work on the building is part of a UNESCO World Heritage Site and in November
             2010 Pope Benedict XVI consecrated and proclaimed it a minor basilica as distinct from a cathedral,
             which must be the seat of a bishop. In 1882, construction of Sagrada Família started under architect
             Francisco de Paula del Villar. In 1883, when Villar resigned, Gaudí took over as chief architect,
@@ -27,10 +42,7 @@
             Art Nouveau forms. Gaudí devoted the remainder of his life to the project, and at the time of his death
             at age 73 in 1926, less than a quarter of the project was complete. Relying solely on private donations,
             Sagrada Familia\'s construction progressed slowly and was interrupted by the Spanish Civil War, only to
-            resume intermittent progress in the 1950s. Since commencing construction in 1882, advancements in technologies
-            such as computer aided design and computerised numerical control (CNC) have enabled faster progress and construction
-            passed the midpoint in 2010. However, some of the project\'s greatest challenges remain, including the construction of
-            ten more spires, each symbolising an important Biblical figure in the New Testament. It is anticipated that the building
+            resume intermittent progress in the 1950s. It is anticipated that the building
             can be completed by 2026—the centenary of Gaudí\'s death.</item>
         <item name="popular_park_güell_description">The Park Güell is a public park system composed of gardens and architectonic
             elements located on Carmel Hill, in Barcelona, Catalonia. Carmel Hill belongs to the mountain range of Collserola –
@@ -52,6 +64,65 @@
             finals, two Copa de la Liga final games, twenty-one Supercopa de España final games, five matches including the opening game
             of the 1982 FIFA World Cup, two out of four matches at the 1964 European Nations Cup and the football competition final at the
             1992 Summer Olympics.</item>
+        <item name="popular_tibidabo_description">Tibidabo is a mountain overlooking Barcelona. At 512 metres, it is the tallest mountain
+            in the Serra de Collserola. Rising sharply to the north-west, it has views over the city and the surrounding coastline.
+            The summit of the mountain is occupied by the Sagrat Cor church and adjacent Tibidabo Amusement Park. The Torre de Collserola
+            telecommunications tower is a short walk away. All three are prominently visible from most of the city of Barcelona. Designed
+            by Enric Sagnier, the church took 60 years to construct and is topped by a sculpture of the Sacred Heart of Jesus by Josep Miret
+            Llopart. Tibidabo can be reached via the Tibidabo Funicular, which was the first of its kind in Spain, and by the Tramvia Blau or
+            road. The Transports Metropolitans de Barcelona minibus service 111 connects it to Vallvidrera village and the upper station of
+            the Vallvidrera funicular.</item>
+    </string-array>
 
+    <string-array name="historical_places_description">
+        <item name="historical_arc_de_triomf_descritption">This archway served as the main entrance during the city\'s 1888 Universal Exhibition.
+            Built from sculpted brick and surrounded by statues, including a sculpture representing the city welcoming international visitors
+            to the Exhibition. Barcelona\'s Arc de Triomf sits atop Parc Ciutadella and is a beautiful spot for pictures, to stroll, bike ride
+            or picnic on the grass next to it. The attraction itself is eye catching but the area surrounding it is what makes it so stunning
+            and serene. If you walk towards the water you\'ll be met by bike paths, beautiful gardens and lounging locals and tourists alike in
+            Parc Ciutadella.</item>
+        <item name="historical_casa_batllò_description">Casa Batlló is a renowned building located in the center of Barcelona and is one of
+            Antoni Gaudí’s masterpieces. A remodel of a previously built house, it was redesigned in 1904 by Gaudí and has been refurbished
+            several times after that. Gaudí\'s assistants Domènec Sugrañes i Gras, Josep Canaleta and Joan Rubió also contributed to the
+            renovation project. The local name for the building is Casa dels ossos (House of Bones), as it has a visceral, skeletal organic
+            quality.</item>
+        <item name="historical_hospital_de_sant_pau_description">The former Hospital de la Santa Creu i Sant Pau in the neighborhood of El Guinardó,
+            Barcelona is a complex built between 1901 and 1930, designed by the Catalan modernisme architect Lluís Domènech i Montaner.
+            Together with Palau de la Música Catalana, it is a UNESCO World Heritage Site. It was a fully functioning hospital until June 2009,
+            when the new hospital opened next to it, before undergoing restoration for use as a museum and cultural center, which opened in 2014.</item>
+        <item name="historical_santa_maria_del_pi_description">Santa Maria del Pi meaning "St. Mary of the Pine" is a 14th-century Gothic church in Barcelona.
+            It is situated on the Plaça del Pi, in the Barri Gòtic district of the city. There are unsubstantiated claims that there was an early Christian
+            church on the site in 413. However it is known that in 987 there existed a church outside the city walls and to the west of Barcelona. This was a
+            small Romanesque church dedicated to the Blessed Lady of the Pine Tree (one of the titles of the Virgin Mary). The church was built between 1319 and 1391.
+            The style of the church was Catalan Gothic, with a single nave almost devoid of ornamentation. However, in 1936 the church was gutted by a fire deliberately
+            set by anarchists, who wanted to destroy the building. The church was restored following the end of the Civil War.</item>
+        <item name="historical_the_columbus_monument_description">The Columbus Monument is a 60 m tall monument to Christopher Columbus at the lower end of La Rambla.
+            It was constructed for the Exposición Universal de Barcelona (1888) in honor of Columbus' first voyage to the Americas. The monument serves as a reminder that
+            Christopher Columbus reported to Queen Isabella I and King Ferdinand V in Barcelona after his first trip to the new continent.</item>
+    </string-array>
+
+    <string-array name="food_description">
+        <item name="food_bar_cañete_description">Cozy up to the bar surrounding the open kitchen at this classic restaurant and local favorite.
+            Its extensive offering of both Catalan and Spanish cuisine ranges from the traditional tapa Tortilla de Camarones of Cádiz
+            (a fried shrimp fritter) to sautéed veal sweetbreads with artichoke hearts. Note that there are two entrances: one for Bar Cañete
+            is on the right, and another for the pricier Cañete Mantel (“tablecloth”) is on the left. Stick with Bar Cañete for the best
+            experience. </item>
+        <item name="food_cova_fumada_description">One of the oldest restaurants in the beachside neighborhood of La Barceloneta,
+            this is the birthplace of the famous “Bomba de la Barceloneta” — a mouth­watering fried mashed potato croquette,
+            stuffed with savory ground beef and topped with aioli and hot sauce, which now appears on menus all over the city.
+            In addition to the Bombas, try the calamars a la planxa (grilled squid) and grilled sardines (in season in summer).
+            If you’re adventurous, add a plate of Cap i Pota, an old-­school Catalan stew of tripe, veal trotters, and veal head in tomato.</item>
+        <item name="food_restaurante_martínez_description">There are plenty of places to try paella in Barcelona, but Martínez is the move:
+            Perched on the side of Montjuïc with a panoramic view of the city and port, Martínez is far removed from the hubbub of the beach
+            district. Famous rice dishes like the señorito paella — garnished with peeled and shelled seafood, which keeps fingers clean —
+            and the decadent lobster rice, as well as classic tapas and an inviting oyster bar, should justify the journey.</item>
+        <item name="food_lomoAlto_description">In this pork-centric region, beef doesn’t usually play a starring role on menus,
+            which makes Lomo Alto even more special. This meat destination is really without compare when it comes to dry-aging,
+            with a massive Leonese ox hanging above its reception area that’s well into its 500-day aging journey. Each cut of meat is
+            meticulously catalogued and labeled with the age and breed, and the steaks are cooked with precision over charcoal flames on
+            custom-made Josper grills. For a special occasion, spring for a 150-day-aged Rubia Gallega T-bone steak, carved tableside.</item>
+        <item name="food_disfrutar_description">This restaurant is climbing steadily to the top of Barcelona\'s fine dining pyramid.
+            The chef-owners, veterans of the El Bulli kitchen, opened Disfrutar in Barcelona in 2014 and currently hold one Michelin star.
+            The modern Mediterranean cuisine and elegant service make for an unmissable experience. </item>
     </string-array>
 </resources>
