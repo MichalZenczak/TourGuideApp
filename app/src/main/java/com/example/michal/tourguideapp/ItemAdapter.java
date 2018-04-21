@@ -42,7 +42,7 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         itemText.setText(currentItem.getLocationName());
 
         ImageView itemImage = listOfItemsView.findViewById(R.id.item_image);
-        itemImage.setImageResource(currentItem.getImageResourceId());
+        itemImage.setImageResource(currentItem.getRoundImageResourceId());
 
 
         // Set the theme color for the list item
