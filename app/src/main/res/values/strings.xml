@@ -15,28 +15,13 @@
         <item name="popular_camp_nou">Camp Nou</item>
         <item name="popular_tibidabo">Tibidabo</item>
     </string-array>
+
     <string-array name="popular_places_locations">
         <item name="popular_sagrada_familia">41.403593,2.174444</item>
         <item name="popular_park_guell">41.413533,2.153251</item>
         <item name="popular_la_rambla">41.385535,2.170020</item>
         <item name="popular_camp_nou">41.380507,2.121485</item>
         <item name="popular_tibidabo">41.421891,2.118953</item>
-    </string-array>
-
-    <string-array name="historical_places_names">
-        <item name="historical_arc_de_triomf">Arc de Triomf</item>
-        <item name="historical_casa_batllò">Casa Batllò</item>
-        <item name="historical_hospital_de_sant_pau">Hospital de Sant Pau</item>
-        <item name="historical_santa_maria_del_pi">Santa Maria del Pi</item>
-        <item name="historical_the_columbus_monument">The Columbus Monument</item>
-    </string-array>
-
-    <string-array name="food_names">
-        <item name="food_bar_cañete">Bar Cañete</item>
-        <item name="food_cova_fumada">Cova Fumada</item>
-        <item name="food_restaurante_martínez">Restaurante Martínez</item>
-        <item name="food_lomoAlto">LomoAlto</item>
-        <item name="food_disfrutar">Disfrutar</item>
     </string-array>
 
     <string-array name="popular_places_description">
@@ -82,6 +67,22 @@
             the Vallvidrera funicular.</item>
     </string-array>
 
+    <string-array name="historical_places_names">
+        <item name="historical_arc_de_triomf">Arc de Triomf</item>
+        <item name="historical_casa_batllò">Casa Batllò</item>
+        <item name="historical_hospital_de_sant_pau">Hospital de Sant Pau</item>
+        <item name="historical_santa_maria_del_pi">Santa Maria del Pi</item>
+        <item name="historical_the_columbus_monument">The Columbus Monument</item>
+    </string-array>
+
+    <string-array name="historical_places_locations">
+        <item name="historical_arc_de_triomf">41.390971,2.180756</item>
+        <item name="historical_casa_batllò">41.391802,2.165077</item>
+        <item name="historical_hospital_de_sant_pau">41.391802,2.165077</item>
+        <item name="historical_santa_maria_del_pi">41.382327,2.173722</item>
+        <item name="historical_the_columbus_monument">41.375886,2.177638</item>
+    </string-array>
+
     <string-array name="historical_places_description">
         <item name="historical_arc_de_triomf_descritption">This archway served as the main entrance during the city\'s 1888 Universal Exhibition.
             Built from sculpted brick and surrounded by statues, including a sculpture representing the city welcoming international visitors
@@ -107,6 +108,22 @@
         <item name="historical_the_columbus_monument_description">The Columbus Monument is a 60 m tall monument to Christopher Columbus at the lower end of La Rambla.
             It was constructed for the Exposición Universal de Barcelona (1888) in honor of Columbus' first voyage to the Americas. The monument serves as a reminder that
             Christopher Columbus reported to Queen Isabella I and King Ferdinand V in Barcelona after his first trip to the new continent.</item>
+    </string-array>
+
+    <string-array name="food_names">
+        <item name="food_bar_cañete">Bar Cañete</item>
+        <item name="food_cova_fumada">Cova Fumada</item>
+        <item name="food_restaurante_martínez">Restaurante Martínez</item>
+        <item name="food_lomoAlto">LomoAlto</item>
+        <item name="food_disfrutar">Disfrutar</item>
+    </string-array>
+
+    <string-array name="food_locations">
+        <item name="food_bar_cañete">41.379174,2.173073</item>
+        <item name="food_cova_fumada">41.379306,2.189236</item>
+        <item name="food_restaurante_martínez">41.369604,2.172481</item>
+        <item name="food_lomoAlto">41.393595,2.166405</item>
+        <item name="food_disfrutar">41.387767,2.153228</item>
     </string-array>
 
     <string-array name="food_description">

@@ -8,7 +8,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ListView;
 import java.util.ArrayList;
 
@@ -25,7 +24,7 @@ public class PopularFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         View rootView = inflater.inflate(R.layout.list_of_items, container, false);
 
         final ArrayList<Item> popularPlacesList = new ArrayList<>();
@@ -33,6 +32,7 @@ public class PopularFragment extends Fragment {
         String[] popularPlacesNames = getResources().getStringArray(R.array.popular_places_names);
 
         String[] popularPalacesDescription = getResources().getStringArray(R.array.popular_places_description);
+
         String[] popularPlacesLocations = getResources().getStringArray(R.array.popular_places_locations);
 
         int[] popularRoundImagesResourceIds = {R.mipmap.ic_sagrada_familia_round,R.mipmap.ic_park_guel_round,
