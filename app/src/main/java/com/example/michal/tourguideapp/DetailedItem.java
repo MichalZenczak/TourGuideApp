@@ -5,11 +5,9 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class DetailedItem extends AppCompatActivity {
 
@@ -17,7 +15,6 @@ public class DetailedItem extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detailed_item);
-
 
         Intent myIntent = getIntent();
         String selectedItemText = myIntent.getStringExtra("selectedItem");

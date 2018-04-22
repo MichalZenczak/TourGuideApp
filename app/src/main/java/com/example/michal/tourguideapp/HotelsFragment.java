@@ -1,6 +1,5 @@
 package com.example.michal.tourguideapp;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 
 
@@ -18,11 +16,9 @@ import java.util.ArrayList;
  */
 public class HotelsFragment extends Fragment {
 
-
     public HotelsFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -30,16 +26,11 @@ public class HotelsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list_of_items, container, false);
 
         final ArrayList<Item> hotelList = new ArrayList<>();
-
         String[] hotelNames = getResources().getStringArray(R.array.hotel_names);
-
         String[] hotelDescription = getResources().getStringArray(R.array.hotel_description);
-
         String[] hotelLocations = getResources().getStringArray(R.array.hotel_locations);
-
         int[] hotelRoundImagesResourceIds = {R.mipmap.ic_w_barcelona_round, R.mipmap.ic_mandarin_oriental_round,
                 R.mipmap.ic_hotel_espana_round, R.mipmap.ic_serras_hotel_round};
-
         int[] hotelImagesResourceIds = {R.mipmap.ic_w_barcelona_foreground, R.mipmap.ic_mandarin_oriental_foreground,
                 R.mipmap.ic_hotel_espana_foreground, R.mipmap.ic_serras_hotel_foreground};
 
@@ -50,8 +41,6 @@ public class HotelsFragment extends Fragment {
         final ItemAdapter hotelAdapter = new ItemAdapter(getActivity(), hotelList);
         ListView listView = rootView.findViewById(R.id.list_of_items);
         listView.setAdapter(hotelAdapter);
-
-
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -64,8 +53,6 @@ public class HotelsFragment extends Fragment {
                 startActivity(myIntent);
             }
         });
-
         return rootView;
     }
-
 }
