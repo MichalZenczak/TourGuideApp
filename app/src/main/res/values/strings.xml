@@ -6,6 +6,7 @@
     <string name="fragment_historic_title">Historic</string>
     <string name="fragment_hotels_title">Hotels</string>
     <string name="fragment_popular_title">Popular</string>
+    <string name="location">Location</string>
 
     <string-array name="popular_places_names">
         <item name="pupular_sagrada_familia">Sagrada Família</item>
@@ -13,6 +14,13 @@
         <item name="popular_la_rambla">La Rambla</item>
         <item name="popular_camp_nou">Camp Nou</item>
         <item name="popular_tibidabo">Tibidabo</item>
+    </string-array>
+    <string-array name="popular_places_locations">
+        <item name="popular_sagrada_familia">41.403593,2.174444</item>
+        <item name="popular_park_guell">41.413533,2.153251</item>
+        <item name="popular_la_rambla">41.385535,2.170020</item>
+        <item name="popular_camp_nou">41.380507,2.121485</item>
+        <item name="popular_tibidabo">41.421891,2.118953</item>
     </string-array>
 
     <string-array name="historical_places_names">

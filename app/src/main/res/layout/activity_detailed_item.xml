@@ -1,35 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <LinearLayout
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/detailed_item_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:adjustViewBounds="true"/>
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true" />
 
-        <TextView
-            android:id="@+id/detailed_item_text"
+        <LinearLayout
+            android:id="@+id/detailed_item_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="fill"
+            android:layout_below="@id/detailed_item_image"
             android:layout_margin="@dimen/margin"
-            android:gravity="center_horizontal"
-            android:textAppearance="?android:textAppearanceLarge"
-            android:textStyle="bold"/>
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detailed_item_text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/detailed_item_location_button"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:drawableStart="@drawable/ic_place_black_24dp"
+                android:text="@string/location" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/detailed_item_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/detailed_item_title"
             android:layout_margin="@dimen/margin"
             android:textAppearance="?android:textAppearanceMedium" />
-
-    </LinearLayout>
+    </RelativeLayout>
 </ScrollView>

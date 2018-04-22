@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 import java.util.ArrayList;
 
@@ -32,6 +33,7 @@ public class PopularFragment extends Fragment {
         String[] popularPlacesNames = getResources().getStringArray(R.array.popular_places_names);
 
         String[] popularPalacesDescription = getResources().getStringArray(R.array.popular_places_description);
+        String[] popularPlacesLocations = getResources().getStringArray(R.array.popular_places_locations);
 
         int[] popularRoundImagesResourceIds = {R.mipmap.ic_sagrada_familia_round,R.mipmap.ic_park_guel_round,
                 R.mipmap.ic_la_rambla_round, R.mipmap.ic_camp_nou_round, R.mipmap.ic_tibidabo_round};
@@ -41,7 +43,7 @@ public class PopularFragment extends Fragment {
 
         for (int i = 0; i < popularPlacesNames.length; i++) {
             popularPlacesList.add(new Item(popularPlacesNames[i], popularPalacesDescription[i],
-                    popularRoundImagesResourceIds[i], popularImagesResourceIds[i]));
+                    popularRoundImagesResourceIds[i], popularImagesResourceIds[i], popularPlacesLocations[i]));
         }
         final ItemAdapter popularPlacesAdapter = new ItemAdapter(getActivity(), popularPlacesList);
         ListView listView = rootView.findViewById(R.id.list_of_items);
@@ -56,10 +58,10 @@ public class PopularFragment extends Fragment {
                 myIntent.putExtra("selectedItem", selectedItem.getLocationName());
                 myIntent.putExtra("selectedItemDescription", selectedItem.getLocationDescription());
                 myIntent.putExtra("imageResourceId", selectedItem.getImageResourceId());
+                myIntent.putExtra("geoLocation",selectedItem.getGeoLocation());
                 startActivity(myIntent);
             }
         });
-
 
         return rootView;
     }
