@@ -46,8 +46,8 @@ public class DetailedItem extends AppCompatActivity {
             }
         });
     }
-    
+
     private Uri createGeoLocationFormat(String geoLocation){
-        return Uri.parse("geo:" + geoLocation);
+        return Uri.parse("geo:" + geoLocation + "?z=14" + "&q=" + geoLocation);
     }
 }
