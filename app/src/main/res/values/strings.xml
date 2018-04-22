@@ -150,4 +150,53 @@
             The chef-owners, veterans of the El Bulli kitchen, opened Disfrutar in Barcelona in 2014 and currently hold one Michelin star.
             The modern Mediterranean cuisine and elegant service make for an unmissable experience. </item>
     </string-array>
+
+
+    <string-array name="hotel_names">
+        <item name="hotel_W">W Barcelona</item>
+        <item name="hotel_mandarin_oriental">Mandarin Oriental</item>
+        <item name="hotel_hotel_españa">Hotel España</item>
+        <item name="hotel_serras">The Serras Hotel</item>
+    </string-array>
+
+    <string-array name="hotel_locations">
+        <item name="hotel_w">41.368504,2.189333</item>
+        <item name="hotel_mandarin_oriental">41.391080,2.166567</item>
+        <item name="hotel_hotel_españa">41.379948,2.172785</item>
+        <item name="hotel_serras">41.380176,2.180921</item>
+    </string-array>
+
+    <string-array name="hotel_description">
+        <item name="hotel_w_description">W Barcelona, popularly known as the Hotel Vela due to its shape,
+            is a building designed by Ricardo Bofill is located in the Barceloneta district of Barcelona,
+            in the expansion of the Port of Barcelona. The hotel is managed by Starwood Hotels and Resorts hotel
+            chain and marketed under the brand W Hotels. The building, designed by the architect Ricardo Bofill,
+            stands in 7 hectares of land reclaimed from the sea surface in the construction of the new entrance to the harbour.
+            It is embedded within the volume of the atrium, has large sea views and natural light, and reflective glass facade
+            mixed object and context. It is an example of high-tech architecture in the city. The project included a public place
+            open to the sea, a marina and hotel landscape, cosmopolitan icon. The five-star hotel comprises 473 rooms, 67 suites,
+            400 employees, a bar located on the rooftop with panoramic city views, a spa and fitness centre, indoor and outdoor pools,
+            terraces, beaches, restaurants, rooms dance, and other facilities grouped under a platform of terraces. The hotel provides
+            also a gourmet restaurant lead by the Michelin-starred chef, Carles Abellán.</item>
+        <item name="hotel_mandarin_oriental_description">Mandarin Oriental is located on Passeig de Gràcia close to a number of Barcelona\’s
+            shopping and dining establishments as well as cultural and entertainment venues. The Mandarin Oriental opened in November
+            2009 and was designed by a team of Spanish architects and designers: Carlos Ferrater and Joan Trias de Bes (architecture)
+            and Patricia Urquiola (interior design). The hotel\’s 98 guest rooms and suites are housed in a re-developed, mid-20th
+            Century building that was once home to a bank. Mandarin Oriental also includes The Spa at Mandarin Oriental and five restaurants
+            and bars, including Moments, a Catalan restaurant headed up by Carme Ruscalleda, a Michelin starred chef.</item>
+        <item name="hotel_españa_description">The Hotel Spain is located on San Pablo Street in Barcelona. Two brothers, Joan and Pau Riba,
+            founded the "Fonda España" around 1850, and due to the good reception that the business had, they decided to expand it
+            to become the Hotel España and the commission fell to the modernist architect Lluís Domènech i Montaner. Its interior is
+            really admirable, the entrance has marble columns, sgraffito and lamps with a modernist style. A large marble fireplace was
+            modeled by Eusebio Arnau and made by Alfons Jujol, representing the passage of time between birth and old age, with the
+            crowning of a large shield of Spain. In the dining rooms of the restaurant, you can see the great ornamentation they contain,
+            a mural in the background with sirens, carved wooden wainscoting with glazed ceramics decorated with shields of Spanish cities,
+            stained glass windows and metalwork lamps.</item>]
+        <item name="hotel_serras_description">History, art, and pure sensual delights come together majestically at The Serras on Barcelona\'s
+            celebrated Gothic quarter. Here, breezes blow off the Mediterranean into large rooms with balconies that offer a front row seat to
+            this trendy Barcelona neighborhood. This elegant 5-star GL boutique hotel overlooking the new luxury Port Vell alongside the Mediterranean Sea,
+            offers a unique hideaway with a modern understated decor. Ideal for your week-end breaks, business trips and luxury holidays in the heart of
+            Barcelona. It boasts a cool, trendy atmosphere, world class amenities and dedicated personal service for a truly memorable hotel experience in
+            the first studio of Pablo Picasso on vibrant Barrio Gótico</item>
+    </string-array>
 </resources>
